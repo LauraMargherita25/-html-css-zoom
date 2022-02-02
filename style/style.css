@@ -1,9 +1,47 @@
+/* css reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root{
+    --bgcolor: black;
+}
+
 html{
     font-family: 'Roboto', sans-serif;
+}
+/* /css reset */
+
+
+
+
+/* header */
+header{
+    background-color: var(--bgcolor);
+    height: 3rem;
+}
+
+.display-settings{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.display-settings .speaker-view, 
+.display-settings .full-screen {
+    color: white;
+    background-color: rgba(255, 255, 255, .3);
+
+    display: inline-block;
+
+    padding: .3em;
+    border-radius: 5px;
+    margin: .3em;
+}
+
+.speaker-view p::before{
+    content: "\f00a";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
 }
