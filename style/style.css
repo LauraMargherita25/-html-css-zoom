@@ -56,7 +56,7 @@ main{
 }
 
 .partecipants{
-    width: 80vw;
+    width: 90vw;
     margin: 0 auto;
     
     display: flex;
@@ -65,7 +65,7 @@ main{
 }
 
 .partecipants .card{
-    width: calc((80vw - 30px) / 7);
+    width: calc((90vw - 30px) / 7);
     height: 15vh;
 
     display: flex;
